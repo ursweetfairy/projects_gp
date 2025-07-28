@@ -5,7 +5,7 @@ import requests
 # Api z informacjami o krajach - https://restcountries.com/
 # Api z informacjami o kursach walut - https://api.nbp.pl/#info
 
-API_KEY = "66cf3893d15873c77ba89ced4d59c10a"
+API_KEY = "TWÓJ KOD API!!"
 
 def check_coordinates(city, API_KEY):
     response = requests.get(f'http://api.openweathermap.org/geo/1.0/direct?q={city}&appid={API_KEY}')
